@@ -823,7 +823,7 @@ pragma solidity^0.4.24;
 
 
 contract Collectible is ERC721Token {
-  constructor() ERC721("Collectible", "COL") public {}
+  constructor() ERC721Token("Collectible", "COL") public {}
 
   struct Color {
     uint8 red;
